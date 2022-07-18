@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    font-size: 1.2rem;
+    background-color: #f3f8f2;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#intro {
+    font-size: 5rem;
+    font-family: 'Carter One', cursive;
+    color: #3e363f;
+}
+
+#pick {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3e363f;
+}
+
+#user-choice {
+    margin-bottom: 1.5rem;
+}
+
+#result {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#rock,
+#paper,
+#scissors {
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    border-radius: 3px;
+}
+
+#rock:hover,
+#paper:hover,
+#scissors:hover {
+    cursor: pointer;
+    background-color: #3e363f;
+    color: #eee;
+}
